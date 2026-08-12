@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 – Seite nicht gefunden · Ina Gordon</title>
+<link rel="icon" type="image/png" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Karla:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+<style>
+  .e404{min-height:70vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:90px 26px}
+  .e404 .code{font-family:var(--serif);font-size:clamp(4rem,12vw,7rem);color:var(--rose);line-height:1}
+  .e404 h1{font-size:clamp(1.6rem,3vw,2.2rem);margin:14px 0 12px}
+  .e404 p{color:var(--ink-soft);max-width:46ch;margin:0 auto 28px}
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="index.html">
+      <img src="logo.png" alt="Ina Gordon">
+      <div>
+        <div class="brand-name">Ina Gordon</div>
+        <div class="brand-sub">Diplom-Psychologin · Systemisch-Integrative Sozialtherapeutin</div>
+      </div>
+    </a>
+  </div>
+</header>
+<main class="e404">
+  <div class="code">404</div>
+  <h1 data-i18n="h1">Diese Seite wurde nicht gefunden</h1>
+  <p data-i18n="p">Die angeforderte Seite existiert nicht oder wurde verschoben. Zurück zur Startseite:</p>
+  <a class="btn btn-primary" href="index.html" data-i18n="cta">Zur Startseite</a>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <div class="legal">
+      <span>© 2026 Ina Gordon</span>
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutzerklärung</a>
+    </div>
+  </div>
+</footer>
+<script>
+window.LANG_DATA = {
+  de: { h1: "Diese Seite wurde nicht gefunden", p: "Die angeforderte Seite existiert nicht oder wurde verschoben. Zurück zur Startseite:", cta: "Zur Startseite" },
+  en: { h1: "This page was not found", p: "The page you requested does not exist or has been moved. Back to the homepage:", cta: "Go to homepage" }
+};
+</script>
+<script src="js/site.js"></script>
+</body>
+</html>
