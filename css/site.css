@@ -63,7 +63,10 @@ section{padding:80px 0;border-top:1px solid var(--line)}
 .pull{font-family:var(--serif);font-size:clamp(1.5rem,2.6vw,2rem);line-height:1.3;color:var(--ink);border-left:3px solid var(--rose);padding-left:24px;margin:0 0 28px}
 .chips{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin:24px 0}
 .chip{background:var(--cream-2);border-radius:999px;padding:13px 20px;text-align:center;font-weight:500;color:var(--ink)}
-.form-note{font-size:.85rem;color:var(--ink-soft);margin-top:14px}
+.form-note{font-size:.86rem;color:var(--ink-soft)}
+.disclaimer{background:var(--cream-2);border:1px solid var(--line);border-left:3px solid var(--rose);border-radius:12px;padding:20px 22px;font-size:.92rem;color:var(--ink-soft);line-height:1.65;margin-top:26px}
+.disclaimer h4{font-family:var(--serif);color:var(--ink);margin:0 0 8px;font-size:1.05rem}
+.group-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
 .quals{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .qual{background:var(--cream-2);border-radius:16px;padding:22px;border-left:3px solid var(--gold)}
 .qual h3{font-size:1.12rem;margin-bottom:6px}

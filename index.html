@@ -4,15 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title data-i18n="siteTitle">Ina Gordon – Diplom-Psychologin · Systemisch-Integrative Sozialtherapeutin</title>
-<meta name="description" content="Psychologische Beratung, Coaching und psychosoziale Begleitung für Einzelpersonen, Paare und Familien – von Diplom-Psychologin Ina Gordon, online.">
+<meta name="description" content="Psychologische Beratung, Coaching und psychosoziale Begleitung für Einzelpersonen, Paare, Familien und Gruppen – online, von Diplom-Psychologin Ina Gordon.">
 <link rel="canonical" href="https://inagordon.com/">
 <meta property="og:title" content="Ina Gordon – Diplom-Psychologin · Systemisch-Integrative Sozialtherapeutin">
 <meta property="og:description" content="Psychologische Beratung, Coaching und psychosoziale Begleitung – online.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://inagordon.com/">
+<meta property="og:image" content="apple-touch-icon.png">
 <meta property="og:locale" content="de_DE">
 <meta property="og:locale:alternate" content="en_US">
-<meta property="og:image" content="https://inagordon.com/apple-touch-icon.png">
 <meta name="theme-color" content="#f9f7f2">
 <link rel="icon" type="image/png" href="apple-touch-icon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -20,372 +20,416 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Karla:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/site.css">
-
 </head>
 <body>
 <header class="site">
   <div class="wrap nav">
-    <div class="brand">
-      <img src="logo.png" alt="Ina Gordon">
+    <a class="brand" href="#top" aria-label="Ina Gordon">
+      <img src="logo.png" alt="Logo Ina Gordon">
       <div>
         <div class="brand-name">Ina Gordon</div>
         <div class="brand-sub" data-i18n="brandSub">Diplom-Psychologin · Systemisch-Integrative Sozialtherapeutin</div>
       </div>
-    </div>
-    <button id="navToggle" aria-expanded="false" aria-label="Menü" data-i18n-aria="menu">☰</button>
-    <nav class="main" id="nav" aria-label="Hauptnavigation">
-      <a href="#ueber" data-i18n="navUeber">Über Ina</a>
-      <a href="#arbeitsweise" data-i18n="navArbeit">Arbeitsweise</a>
-      <a href="#anliegen" data-i18n="navAnliegen">Anliegen</a>
+    </a>
+    <nav id="nav" class="nav-links" aria-label="Hauptnavigation">
+      <a href="#arbeiten" data-i18n="navArbeit">So arbeite ich</a>
+      <a href="#gruppen" data-i18n="navGruppen">Gruppen</a>
       <a href="#angebote" data-i18n="navAngebote">Angebote</a>
       <a href="#kontakt" data-i18n="navKontakt">Kontakt</a>
+    </nav>
+    <div class="nav-right">
       <span class="lang" role="group" aria-label="Sprache / Language">
         <button data-lang="de" aria-pressed="true">DE</button>
         <button data-lang="en" aria-pressed="false">EN</button>
       </span>
-    </nav>
+      <button id="navToggle" class="burger" aria-label="Menü öffnen" aria-expanded="false"><span></span><span></span></button>
+    </div>
   </div>
 </header>
 
 <!-- HERO -->
-<section class="hero" style="border-top:0">
-  <div class="wrap grid">
-    <div class="rv">
+<section id="top" class="hero rv">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
       <p class="eyebrow" data-i18n="heroEyebrow">Psychologische Beratung · Coaching · Psychosoziale Begleitung</p>
-      <h1 data-i18n-html="heroH1">Raum für Klarheit – <em>persönlich</em>, psychologisch fundiert und auf Augenhöhe.</h1>
-      <p class="lead" data-i18n="heroLead">Ich bin Diplom-Psychologin und Systemisch-Integrative Sozialtherapeutin. Ich begleite Einzelpersonen, Paare und Familien dabei, sich selbst und ihre Situation besser zu verstehen – in Krisen, Übergängen und Fragen der eigenen Lebensgestaltung.</p>
+      <h1 data-i18n="heroH1">Raum für Klarheit und emotionale Integration – für Sinnfragen, Krisen und Veränderung.</h1>
+      <p class="lead" data-i18n="heroLead">Manchmal geraten wir an Punkte im Leben, an denen das bisherige Bild von uns selbst und der Welt nicht mehr trägt: Akute Krisen, tiefgreifende Erschöpfung oder drängende Sinnfragen – „Wer bin ich, und was ist mein Platz in dieser Welt?“ – belasten Körper und Seele gleichermaßen. Wenn das Gefühl verloren geht, wofür man eigentlich lebt, oder alte Lebensentwürfe in der Krise zerbrechen, reicht reines Nachdenken oft nicht aus.</p>
+      <p class="lead" data-i18n="heroLead2">Veränderung braucht mehr als Einsicht – sie braucht einen sicheren Raum, in dem Schmerz gehalten, körperlich spürbar verarbeitet und emotional integriert werden kann.</p>
+      <p class="hero-questions" data-i18n="heroQuestions">Was hält Sie fest?<br>Welches Muster blockiert Ihre Lebendigkeit?<br>Und was wird möglich, wenn Sie beginnen, sich von alten Überzeugungen zu lösen und wieder eine echte Verbindung zu sich selbst und der Welt zu finden?</p>
+      <p class="lead" data-i18n="heroLead3">Ich begleite Sie empathisch und fachlich fundiert dabei, diesen Prozess zu durchlaufen – für tiefgreifende Klärung und eine Rückkehr in Ihre eigene Lebendigkeit.</p>
       <div class="cta">
         <a class="btn btn-primary" href="#kontakt" data-i18n="ctaPrimary">Kontakt aufnehmen</a>
-        <a class="btn btn-ghost" href="#arbeitsweise" data-i18n="ctaSecondary">So arbeite ich</a>
+        <a class="btn btn-ghost" href="#arbeiten" data-i18n="ctaSecondary">So arbeite ich</a>
       </div>
       <p class="hero-note" data-i18n="heroNote">Beratung · Coaching · psychosoziale Begleitung – online</p>
-      <div class="motif">
-        <span data-i18n="m1">Klarheit</span><span class="dot"></span>
-        <span data-i18n="m2">Verbindung</span><span class="dot"></span>
-        <span data-i18n="m3">Entwicklung</span>
-      </div>
     </div>
-    <div class="hero-media rv d1">
-      <div class="halo" aria-hidden="true"></div>
-      <img src="portrait.png" alt="Ina Gordon, Diplom-Psychologin">
-      <p class="quote" data-i18n="heroQuote">„Verstehen, was ist. Klärung, was wirkt. Gestalten, was kommt.“</p>
+    <div class="hero-photo">
+      <div class="halo"></div>
+      <img src="portrait.png" alt="Porträt von Ina Gordon" width="720" height="960">
+      <p class="quote" data-i18n="heroQuote">„Verstehen, was ist. Spüren, was wirkt. Integrieren, was kommt.“</p>
     </div>
   </div>
 </section>
 
-<!-- ÜBER -->
-<section id="ueber">
+<!-- SO ARBEITE ICH -->
+<section id="arbeiten" class="sec rv">
   <div class="wrap">
-    <div class="sec-head rv">
-      <span class="sec-num" data-i18n="ueberNum">Über Ina</span>
-      <h2 data-i18n="ueberH">Wer ich bin und wie ich Menschen begleite</h2>
-    </div>
-    <div class="two">
-      <div class="body-text rv">
-        <p data-i18n="ueberP1">Ich bin Diplom-Psychologin und Systemisch-Integrative Sozialtherapeutin mit langjähriger Erfahrung in der psychosozialen Beratung und Begleitung von Einzelpersonen, Paaren und Familien.</p>
-        <p data-i18n="ueberP2">Mich interessiert nicht nur die sichtbare Oberfläche eines Problems, sondern auch das, was darunter liegt: Überzeugungen, Erwartungen, Rollen und Beziehungsmuster, die oft so selbstverständlich geworden sind, dass wir sie kaum noch bemerken.</p>
+    <span class="sec-num" data-i18n="arbeitNum">So arbeite ich</span>
+    <h2 data-i18n="arbeitH">Mein Ansatz</h2>
+    <div class="cols">
+      <div>
+        <p data-i18n="arbeitP1">Ich arbeite ausschließlich online und begleite Einzelpersonen, Paare, Familien und Gruppen.</p>
+        <p data-i18n="arbeitP2">Im Mittelpunkt steht nicht eine starre Methode, sondern Sie als Mensch mit Ihrer individuellen Geschichte. Als Diplom-Psychologin und systemisch-integrative Sozialtherapeutin verbinde ich fundiertes Fachwissen mit einer ganzheitlichen Haltung.</p>
       </div>
-      <div class="body-text rv d1">
-        <p data-i18n="ueberP3">In meiner Arbeit geht es darum, gemeinsam genauer hinzusehen: Was passiert gerade wirklich? Welche Muster wiederholen sich? Welche Möglichkeiten sind bisher nicht sichtbar?</p>
-        <p data-i18n="ueberP4">Aus diesem Verständnis entstehen neue Handlungsräume – auf der Basis eines vertrauensvollen, auf Augenhöhe geführten Kontakts.</p>
+      <div>
+        <p data-i18n="arbeitP3">Mein Ansatz ist prozessorientiert: Wir betrachten nicht nur das, was gerade schwierig ist, sondern gehen den Dingen auf den Grund. Durch die Dekonstruktion einschränkender Glaubenssätze, automatisierter Denkmuster und veralteter Schutzmechanismen schaffen wir Raum für das, was wirklich zu Ihnen gehört.</p>
+        <p data-i18n="arbeitP4">Dieser Prozess führt über die Bewusstwerdung zur emotionalen Integration. Wir lösen Blockaden, die Sie in der Komfortzone gefangen halten, damit Sie wieder eine authentische Verbindung zu sich selbst und Ihrem Leben spüren – für mehr Lebendigkeit, innere Verbindung, und Flow.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GRUPPEN IM FOKUS -->
+<section id="gruppen" class="sec alt rv">
+  <div class="wrap">
+    <span class="sec-num" data-i18n="gruppenNum">Gruppen im Fokus</span>
+    <h2 data-i18n="gruppenH">Gruppenprozesse</h2>
+    <div class="cols">
+      <div>
+        <p data-i18n="gruppenP1">Ein besonderer Schwerpunkt meiner Arbeit liegt auf der Begleitung von Gruppenprozessen.</p>
+        <p data-i18n="gruppenP2">In Gruppen entsteht ein geschützter Raum, in dem individuelle Themen – etwa Sinnkrisen, Zugehörigkeitsfragen oder Beziehungsdynamiken – im Kontakt mit anderen spiegelbar werden. Viele Muster zeigen sich in der Gruppe in einer verdichteten Form als sicherer Mikrokosmos, was Erkenntnisse ermöglicht, die über das Kognitive hinausgehen: Sie werden erlebbar im geschützten Rahmen, und können dadurch emotional integriert werden.</p>
+      </div>
+      <div>
+        <p data-i18n="gruppenP3">Gruppenarbeit bietet die Chance, sich selbst in Beziehung zu erfahren, neue Perspektiven zu gewinnen und Veränderung nicht nur zu verstehen, sondern im sozialen Miteinander zu festigen.</p>
+        <p data-i18n="gruppenP4">Aktuelle Gruppenangebote und neue Starttermine werden regelmäßig veröffentlicht.</p>
+      </div>
+    </div>
+    <div class="group-ctas">
+      <a class="btn btn-primary" href="#kontakt" data-i18n="gruppenCta1">👉 Warteliste beitreten</a>
+      <a class="btn btn-ghost" href="#kontakt" data-i18n="gruppenCta2">👉 Über neue Gruppen informiert werden</a>
+    </div>
+  </div>
+</section>
+
+<!-- WIE ICH MENSCHEN BEGLEITE -->
+<section id="begleiten" class="sec rv">
+  <div class="wrap">
+    <span class="sec-num" data-i18n="begleitenNum">Wie ich Menschen begleite</span>
+    <h2 data-i18n="begleitenH">Unter die Oberfläche blicken</h2>
+    <div class="cols">
+      <div>
+        <p class="lead" data-i18n="begleitenP1">Ich glaube, dass ein Mensch niemals einfach „das Problem“ ist, mit dem er zu mir kommt.</p>
+        <p data-i18n="begleitenP2">Hinter einer akuten Krise stecken oft verletzte Bedürfnisse.<br>Hinter dem Gefühl der Sinnlosigkeit stehen oft Verluste, Erwartungen, oder alte Rollenbilder, die nicht mehr zu Ihnen passen.<br>Und hinter dem Gefühl, festzustecken, steht oft eine Veränderung, die bereits drängt, aber noch keinen Raum gefunden hat.</p>
+        <p data-i18n="begleitenP3">Ich blicke mit Ihnen gemeinsam unter die Oberfläche. Ich möchte verstehen, wie Sie Ihre Welt erleben, welche Dynamiken wirken und wo Ihre Potenziale verborgen liegen. Dabei geht es nicht darum, alles zu analysieren oder aus jedem Zustand ein Defizit zu machen.</p>
+      </div>
+      <div>
+        <p data-i18n="begleitenP4">Es geht um einen offenen Blick auf das, was ist:</p>
+        <p class="hero-questions" data-i18n="begleitenP5">Welcher Schmerz oder welche Sinnfrage zeigt sich gerade?<br>Was möchte nicht nur auf kognitiver, sondern auch auf körperlicher oder emotionaler Ebene gehört werden?<br>Welche Muster dienen Ihnen nicht mehr?<br>Und was darf sich wandeln, damit Sie sich wieder handlungsfähig und verbunden fühlen?</p>
+        <p data-i18n="begleitenP6">Ihre Begleitung erfolgt klar, auf Augenhöhe und mit tiefem Respekt vor Ihrem individuellen Tempo.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ARBEITSWEISE -->
-<section id="arbeitsweise">
+<section id="arbeitsweise" class="sec alt rv">
   <div class="wrap">
-    <div class="sec-head rv">
-      <span class="sec-num" data-i18n="arbeitNum">Arbeitsweise</span>
-      <h2 data-i18n="arbeitH">Wie ich arbeite</h2>
-    </div>
-    <blockquote class="pull rv" data-i18n="arbeitPull">„Ich glaube nicht an eine Methode, die für alle funktioniert.“</blockquote>
-    <div class="two">
-      <div class="body-text rv">
-        <p data-i18n="arbeitP1">Ich verbinde verschiedene psychologische und systemische Perspektiven und richte die Begleitung nach dem Anliegen, der Person und ihrer individuellen Situation aus.</p>
-        <p data-i18n="arbeitP2">Komplexe Situationen nehme ich ernst, ohne sie unnötig zu pathologisieren.</p>
+    <span class="sec-num" data-i18n="awNum">Arbeitsweise</span>
+    <h2 data-i18n="awH">Ein integrativer Prozess – so vielseitig wie Sie</h2>
+    <blockquote class="pull" data-i18n="awPull">„Ich glaube nicht an die eine Methode, die für alle funktioniert.“</blockquote>
+    <div class="cols">
+      <div>
+        <p data-i18n="awP1">Menschen und Anliegen sind vielschichtig. Deshalb stütze ich mich auf einen integrativen Ansatz, der verschiedene psychologische und systemische Perspektiven vereint und flexibel auf Ihre Bedürfnisse angepasst wird.</p>
+        <p data-i18n="awP2">Je nach Situation binden wir unterschiedliche Ebenen ein:<br>die persönliche Lebensgeschichte und aktuelle Krisensituation,<br>das Aufbrechen von Glaubenssätzen und alten Mustern (Dekonstruktion),<br>körperorientierte und kreative Ansätze zum Erleben oder auch zur Regulation,<br>Beziehungen und soziale Zugehörigkeit,<br>die emotionale Verarbeitung und Rückverbindung mit Ihren Werten.</p>
       </div>
-      <div class="body-text rv d1">
-        <p data-i18n="arbeitP3">Gemeinsam verstehen wir: Was passiert gerade? Was liegt möglicherweise hinter einem wiederkehrenden Muster? Welche Dynamiken wirken? Welche Erwartungen beeinflussen die Situation?</p>
-        <p data-i18n="arbeitP4">Was könnte sich verändern – und wie? Die Sprache bleibt dabei menschlich und verständlich.</p>
+      <div>
+        <p data-i18n="awP3">Komplexität darf da sein. Nicht jede Krise muss sofort „gelöst“ werden – oft beginnt die tiefste Entwicklung damit, dem, was ist, einen sicheren Raum zu geben, um zu verstehen, zu dekonstruieren, was uns im Leid gefangen hält, dann in Verbindung zu kommen und durch emotionale Integration einen neuen Flow zu finden.</p>
+        <p data-i18n="awP4">Meine Aufgabe ist es, diesen Raum, gemeinsam mit Ihnen, für Sie zu schaffen – für Klarheit, Integration und ein selbstbestimmtes Leben.</p>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- ANLIEGEN -->
-<section id="anliegen">
-  <div class="wrap">
-    <div class="sec-head rv">
-      <span class="sec-num" data-i18n="anliegenNum">Anliegen</span>
-      <h2 data-i18n="anliegenH">Für wen und mit welchen Anliegen</h2>
-      <p data-i18n="anliegenIntro">Meine Begleitung richtet sich an Einzelpersonen, Paare und Familien, die in einer herausfordernden Phase Unterstützung suchen. Mögliche Anliegen sind:</p>
-    </div>
-    <div class="chips rv">
-      <span class="chip" data-i18n="a1">Lebenskrisen</span>
-      <span class="chip" data-i18n="a2">Übergänge</span>
-      <span class="chip" data-i18n="a3">Beziehungen</span>
-      <span class="chip" data-i18n="a4">wiederkehrende Konfliktmuster</span>
-      <span class="chip" data-i18n="a5">Überforderung</span>
-      <span class="chip" data-i18n="a6">Neuorientierung</span>
-      <span class="chip" data-i18n="a7">persönliche Entwicklung</span>
-      <span class="chip" data-i18n="a8">familiäre Dynamiken</span>
-      <span class="chip" data-i18n="a9">Veränderungsprozesse</span>
-      <span class="chip" data-i18n="a10">Beziehungskonflikte</span>
-      <span class="chip" data-i18n="a11">Fragen der Lebensgestaltung</span>
-    </div>
-    <p class="form-note rv" data-i18n="anliegenNote" style="margin-top:20px">Diese Themen sind mögliche Anliegen – keine Diagnosen.</p>
   </div>
 </section>
 
 <!-- ANGEBOTE -->
-<section id="angebote">
+<section id="angebote" class="sec rv">
   <div class="wrap">
-    <div class="sec-head rv">
-      <span class="sec-num" data-i18n="angeboteNum">Angebote</span>
-      <h2 data-i18n="angeboteH">Mein Angebot</h2>
-      <p data-i18n="angeboteIntro">Mein Angebot umfasst Beratung, Coaching und psychosoziale Begleitung für Einzelpersonen, Paare und Familien:</p>
+    <span class="sec-num" data-i18n="angeboteNum">Meine Angebote</span>
+    <h2 data-i18n="angeboteH">Online-Begleitung</h2>
+    <p data-i18n="angeboteIntro">Ich biete Online-Begleitung auf Deutsch und Englisch an. Dabei arbeite ich sowohl im Einzelsetting als auch mit Paaren, Familien und Gruppen.</p>
+    <div class="quals">
+      <div class="qual rv">
+        <h3 data-i18n="o1">Einzelberatung</h3>
+        <p data-i18n="o1d">Für Menschen, die sich in akuten Krisen oder belastenden Lebensphasen befinden, Orientierung suchen und neue Perspektiven entwickeln möchten. Ein geschützter, sicherer Raum für persönliche Krisen, emotionale Klärungsprozesse und Fragen der eigenen Lebensgestaltung.</p>
+      </div>
+      <div class="qual rv">
+        <h3 data-i18n="o2">Paarberatung</h3>
+        <p data-i18n="o2d">Für Paare, die destruktive Beziehungs- und Konfliktmuster durchbrechen, einander wieder emotional erreichen und neue Wege des Miteinanders finden möchten.</p>
+      </div>
+      <div class="qual rv">
+        <h3 data-i18n="o3">Familienberatung</h3>
+        <p data-i18n="o3d">Für Familien, die verstrickte Dynamiken verstehen und gemeinsam neue, entlastende Formen des Umgangs entwickeln möchten.</p>
+      </div>
+      <div class="qual rv">
+        <h3 data-i18n="o4">Gruppen</h3>
+        <p data-i18n="o4d">Manche Prozesse entfalten sich besonders kraftvoll in der Gemeinschaft. In meinen Gruppen erleben Sie den heilsamen Austausch, spüren Verbundenheit und integrieren neue Erkenntnisse im sozialen Raum.</p>
+      </div>
+      <div class="qual rv">
+        <h3 data-i18n="o5">Coaching</h3>
+        <p data-i18n="o5d">Begleitung bei persönlichen Entwicklungsfragen, Veränderungsprozessen, Entscheidungskrisen und der bewussten, wertebasierten Lebensgestaltung.</p>
+      </div>
     </div>
-    <div class="chips rv">
-      <span class="chip"><strong data-i18n="o1">Psychologische Beratung</strong></span>
-      <span class="chip"><strong data-i18n="o2">Einzelberatung</strong></span>
-      <span class="chip"><strong data-i18n="o3">Paarberatung</strong></span>
-      <span class="chip"><strong data-i18n="o4">Familienberatung</strong></span>
-      <span class="chip"><strong data-i18n="o5">Psychosoziale Beratung &amp; Begleitung</strong></span>
-      <span class="chip"><strong data-i18n="o6">Unterstützung in persönlichen Krisen</strong></span>
-      <span class="chip"><strong data-i18n="o7">Begleitung bei Veränderungsprozessen</strong></span>
-      <span class="chip"><strong data-i18n="o8">Coaching</strong></span>
-      <span class="chip"><strong data-i18n="o9">Persönliche Entwicklung</strong></span>
-    </div>
-    <p class="form-note rv" data-i18n="angeboteNote" style="margin-top:20px">Die Formate sind flexibel – online, auf Deutsch und auf Englisch.</p>
+    <p class="form-note" data-i18n="angeboteNote">Alle Angebote finden ausschließlich online statt.</p>
   </div>
 </section>
 
 <!-- HINTERGRUND -->
-<section id="hintergrund">
+<section id="hintergrund" class="sec alt rv">
   <div class="wrap">
-    <div class="sec-head rv">
-      <span class="sec-num" data-i18n="hgNum">Hintergrund</span>
-      <h2 data-i18n="hgH">Fachlicher Hintergrund</h2>
-      <p data-i18n="hgIntro">Meine psychologische Ausbildung und Erfahrung bilden das Fundament meiner Arbeit:</p>
-    </div>
-    <div class="quals rv">
-      <div class="qual">
-        <h3 data-i18n="q1">Diplom-Psychologin</h3>
-        <p data-i18n="q1d">Universität Bremen · Schwerpunkte Klinische und Pädagogische Psychologie</p>
+    <span class="sec-num" data-i18n="hgNum">Hintergrund</span>
+    <h2 data-i18n="hgH">Systemisch-Integratives Fundament · Psychologische Expertise · ganzheitliche Haltung</h2>
+    <div class="cols">
+      <div>
+        <p data-i18n="hgP1">Mein fachlicher Hintergrund verbindet mein Studium der Psychologie (Diplom) mit einer fundierten Weiterbildung zur systemisch-integrativen Sozialtherapeutin sowie langjähriger Praxiserfahrung in der psychosozialen Begleitung.</p>
+        <p data-i18n="hgP2">In meiner Arbeit fließen verschiedene Fachdisziplinen und Methoden zusammen: Ich bin geschult in systemischen Methoden, Psychodrama, körperorientierten und kreativen Methoden sowie einer personzentrierten Haltung. Zur Zeit befinde mich in Fortbildungen zu NLP und Hypnotherapie.</p>
       </div>
-      <div class="qual">
-        <h3 data-i18n="q2">Systemisch-Integrative Sozialtherapeutin</h3>
-        <p data-i18n="q2d">Vollzeitausbildung am ISIT Berlin</p>
-      </div>
-      <div class="qual">
-        <h3 data-i18n="q3">Personzentrierte Haltung</h3>
-        <p data-i18n="q3d">Ergänzt durch psychodramatische, körperorientierte und kreative Zugänge</p>
-      </div>
-      <div class="qual">
-        <h3 data-i18n="q4">Psychosoziale Praxis &amp; internationale Erfahrung</h3>
-        <p data-i18n="q4d">Einzelfall-, Familien- und Eingliederungshilfe · psychosoziale Arbeit mit Jugendlichen und Familien in Mexiko · psychiatrischer Studienaufenthalt in Kuba</p>
+      <div>
+        <p data-i18n="hgP3">Fachlichkeit bedeutet für mich, Sie in Ihrem gesamten Lebenskontext zu verstehen und Ihnen einen professionellen, sicheren Rahmen zu bieten. Eine integrative Haltung bedeutet, den Menschen in seiner Ganzheit aus Körper, Geist und sozialen Beziehungen zu betrachten.</p>
+        <p data-i18n="hgP4">Fachlichkeit, Empathie und eine verantwortungsvolle, zugewandte Haltung bilden das Fundament meiner Arbeit.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- KONTAKT -->
-<section id="kontakt">
+<section id="kontakt" class="sec rv">
   <div class="wrap">
     <div class="contact-panel">
       <div class="contact-side rv">
         <span class="sec-num" data-i18n="kontaktNum">Kontakt</span>
-        <h2 data-i18n="kontaktH" style="margin-bottom:18px">Kontakt aufnehmen</h2>
-        <p class="lead" style="font-size:1.05rem;margin-bottom:8px" data-i18n="kontaktIntro">Wenn Sie Fragen haben oder herausfinden möchten, ob meine Begleitung zu Ihrem Anliegen passt, können Sie mir über das Kontaktformular schreiben.</p>
-        <div class="c-label" data-i18n="kontaktFormate">Formate</div>
-        <p style="color:var(--ink-soft)" data-i18n="kontaktFormateTxt">Online · auf Deutsch und auf Englisch</p>
+        <h2 data-i18n="kontaktH" style="margin-bottom:18px">Ein erster Schritt darf leicht sein</h2>
+        <p class="lead" style="font-size:1.05rem;margin-bottom:8px" data-i18n="kontaktIntro">Ein erster Schritt in der Krise oder bei Sinnfragen darf leicht und unkompliziert sein.</p>
+        <p style="color:var(--ink-soft)" data-i18n="kontaktIntro2">Sie müssen Ihr Anliegen nicht perfekt formulieren. Wenn Sie spüren, dass Sie Unterstützung brauchen, um etwas zu sortieren, Ihren Weg neu zu finden oder Schmerz zu verarbeiten, schreiben Sie mir einfach eine Nachricht über das Kontaktformular.</p>
+        <div class="c-label" data-i18n="kontaktFormate">Online</div>
+        <p style="color:var(--ink-soft)" data-i18n="kontaktFormateTxt">Die Begleitung findet ausschließlich online statt und kann auf Deutsch oder Englisch erfolgen.</p>
       </div>
       <div class="rv d1">
         <form id="contactForm" class="form" action="#" method="post" novalidate>
           <div class="form-field">
             <label for="cf-name" data-i18n="fName">Name</label>
-            <input id="cf-name" name="name" type="text" required autocomplete="name" data-i18n-ph="fNamePh" placeholder="Ihr Name">
+            <input id="cf-name" name="name" type="text" data-i18n-ph="fNamePh" placeholder="Ihr Name" required>
           </div>
           <div class="form-field">
             <label for="cf-email" data-i18n="fEmail">E-Mail-Adresse</label>
-            <input id="cf-email" name="email" type="email" required autocomplete="email" data-i18n-ph="fEmailPh" placeholder="ihre@email.de">
+            <input id="cf-email" name="email" type="email" data-i18n-ph="fEmailPh" placeholder="ihre@email.de" required>
           </div>
           <div class="form-field">
             <label for="cf-msg" data-i18n="fMsg">Ihre Nachricht</label>
-            <textarea id="cf-msg" name="message" required data-i18n-ph="fMsgPh" placeholder="Wie kann ich Sie unterstützen?"></textarea>
+            <textarea id="cf-msg" name="message" data-i18n-ph="fMsgPh" placeholder="Wie kann ich Sie unterstützen?" required></textarea>
           </div>
           <label class="check">
-            <input type="checkbox" name="dsgvo" required>
+            <input type="checkbox" name="privacy" value="ok" required>
             <span data-i18n="fDsgvo">Ich habe die Datenschutzerklärung zur Kenntnis genommen.</span>
           </label>
-          <button class="btn btn-primary" type="submit" data-i18n="fSend">Nachricht senden</button>
+          <button type="submit" class="btn btn-primary" data-i18n="fSend">Nachricht senden</button>
           <p class="form-note" data-i18n="fNote">Ihre Angaben werden vertraulich behandelt und ausschließlich zur Bearbeitung Ihrer Anfrage verwendet.</p>
+          <div id="formSuccess" class="form-result" hidden data-i18n="fSuccess">Vielen Dank für Ihre Nachricht. Ich melde mich in der Regel innerhalb weniger Tage bei Ihnen.</div>
+          <div id="formError" class="form-result" hidden data-i18n="fError">Es gab ein Problem beim Senden. Bitte versuchen Sie es erneut.</div>
+          <div id="formFallback" class="form-result" hidden data-i18n="fFallback">Danke für Ihr Interesse. Das Kontaktformular wird in den nächsten Tagen aktiviert – bitte kommen Sie dann gern erneut darauf zurück.</div>
         </form>
-        <div id="formSuccess" class="form-result" hidden data-i18n="fSuccess">Vielen Dank für Ihre Nachricht. Ich melde mich in der Regel innerhalb weniger Tage bei Ihnen.</div>
-        <div id="formError" class="form-result" hidden data-i18n="fError">Es gab ein Problem beim Senden. Bitte versuchen Sie es erneut.</div>
-        <div id="formFallback" class="form-result" hidden data-i18n="fFallback">Danke für Ihr Interesse. Das Kontaktformular wird in den nächsten Tagen aktiviert – bitte kommen Sie dann gern erneut darauf zurück.</div>
       </div>
+    </div>
+    <div class="disclaimer rv">
+      <h4 data-i18n="hinweisH">Hinweis zum Leistungsumfang</h4>
+      <p data-i18n="hinweisT">Meine Angebote im Bereich psychologische Beratung, Coaching und psychosoziale Begleitung dienen der persönlichen Klärung, Krisenbewältigung, Entwicklung und Unterstützung in herausfordernden Lebenssituationen. Sie stellen keine heilkundliche Behandlung psychischer Erkrankungen dar und ersetzen keine Psychotherapie. Bei Beschwerden mit Krankheitswert ist eine entsprechende medizinische oder psychotherapeutische Abklärung und Behandlung erforderlich.</p>
     </div>
   </div>
 </section>
 
 <footer class="site">
   <div class="wrap">
-    <div class="foot">
+    <div class="foot-main">
       <div class="foot-brand">
-        <img src="logo.png" alt="Ina Gordon">
-        <h4>Ina Gordon</h4>
-        <div class="brand-sub" data-i18n="brandSubF">Diplom-Psychologin · Systemisch-Integrative Sozialtherapeutin</div>
+        <img src="logo.png" alt="Logo Ina Gordon">
+        <div class="brand-name">Ina Gordon</div>
+        <div class="brand-sub" data-i18n="footBrandSub">Diplom-Psychologin · Systemisch-Integrative Sozialtherapeutin</div>
       </div>
       <div class="foot-address">
         <h4 data-i18n="footKontakt">Kontakt</h4>
         <span data-i18n="footKontaktWeg">Kontaktaufnahme über das Formular</span>
       </div>
       <div class="foot links">
-        <h4 data-i18n="footNav">Seite</h4>
-        <a href="#ueber" data-i18n="navUeber">Über Ina</a>
-        <a href="#arbeitsweise" data-i18n="navArbeit">Arbeitsweise</a>
-        <a href="#anliegen" data-i18n="navAnliegen">Anliegen</a>
-        <a href="#angebote" data-i18n="navAngebote">Angebote</a>
-        <a href="#kontakt" data-i18n="navKontakt">Kontakt</a>
+        <h4 data-i18n="footLinks">Rechtliches</h4>
+        <a href="impressum.html" data-i18n="impressum">Impressum</a>
+        <a href="datenschutz.html" data-i18n="datenschutz">Datenschutzerklärung</a>
       </div>
     </div>
     <div class="legal">
       <span>© 2026 Ina Gordon</span>
-      <a href="impressum.html" data-i18n="impressum">Impressum</a>
-      <a href="datenschutz.html" data-i18n="datenschutz">Datenschutzerklärung</a>
-    </div>
-    <div class="decon" data-decon hidden>
-      <p>Curious about my work on personal development? <a href="#" rel="nofollow" data-i18n="deconLink">Explore the Deconstruction Approach →</a></p>
     </div>
   </div>
 </footer>
 
+<div class="decon" data-decon hidden>
+  <p>Curious about my work on personal development? <a href="#" rel="nofollow" data-i18n="deconLink">Explore the Deconstruction Approach →</a></p>
+</div>
+
 <script>
-/* FORM endpoint — replace with a working form-backend URL (e.g. Formspree) once the business email is set. */
 window.FORM_ENDPOINT = "";
-</script>
-<script>
 window.LANG_DATA = {
   de: {
     siteTitle: "Ina Gordon – Diplom-Psychologin · Systemisch-Integrative Sozialtherapeutin",
     brandSub: "Diplom-Psychologin · Systemisch-Integrative Sozialtherapeutin",
-    navUeber: "Über Ina", navArbeit: "Arbeitsweise", navAnliegen: "Anliegen", navAngebote: "Angebote", navKontakt: "Kontakt",
+    navArbeit: "So arbeite ich", navGruppen: "Gruppen", navAngebote: "Angebote", navKontakt: "Kontakt",
     heroEyebrow: "Psychologische Beratung · Coaching · Psychosoziale Begleitung",
-    heroH1: "Raum für Klarheit – <em>persönlich</em>, psychologisch fundiert und auf Augenhöhe.",
-    heroLead: "Ich bin Diplom-Psychologin und Systemisch-Integrative Sozialtherapeutin. Ich begleite Einzelpersonen, Paare und Familien dabei, sich selbst und ihre Situation besser zu verstehen – in Krisen, Übergängen und Fragen der eigenen Lebensgestaltung.",
+    heroH1: "Raum für Klarheit und emotionale Integration – für Sinnfragen, Krisen und Veränderung.",
+    heroLead: "Manchmal geraten wir an Punkte im Leben, an denen das bisherige Bild von uns selbst und der Welt nicht mehr trägt: Akute Krisen, tiefgreifende Erschöpfung oder drängende Sinnfragen – „Wer bin ich, und was ist mein Platz in dieser Welt?“ – belasten Körper und Seele gleichermaßen. Wenn das Gefühl verloren geht, wofür man eigentlich lebt, oder alte Lebensentwürfe in der Krise zerbrechen, reicht reines Nachdenken oft nicht aus.",
+    heroLead2: "Veränderung braucht mehr als Einsicht – sie braucht einen sicheren Raum, in dem Schmerz gehalten, körperlich spürbar verarbeitet und emotional integriert werden kann.",
+    heroQuestions: "Was hält Sie fest?<br>Welches Muster blockiert Ihre Lebendigkeit?<br>Und was wird möglich, wenn Sie beginnen, sich von alten Überzeugungen zu lösen und wieder eine echte Verbindung zu sich selbst und der Welt zu finden?",
+    heroLead3: "Ich begleite Sie empathisch und fachlich fundiert dabei, diesen Prozess zu durchlaufen – für tiefgreifende Klärung und eine Rückkehr in Ihre eigene Lebendigkeit.",
     ctaPrimary: "Kontakt aufnehmen", ctaSecondary: "So arbeite ich",
     heroNote: "Beratung · Coaching · psychosoziale Begleitung – online",
-    m1: "Klarheit", m2: "Verbindung", m3: "Entwicklung",
-    heroQuote: "„Verstehen, was ist. Klärung, was wirkt. Gestalten, was kommt.“",
-    ueberNum: "Über Ina", ueberH: "Wer ich bin und wie ich Menschen begleite",
-    ueberP1: "Ich bin Diplom-Psychologin und Systemisch-Integrative Sozialtherapeutin mit langjähriger Erfahrung in der psychosozialen Beratung und Begleitung von Einzelpersonen, Paaren und Familien.",
-    ueberP2: "Mich interessiert nicht nur die sichtbare Oberfläche eines Problems, sondern auch das, was darunter liegt: Überzeugungen, Erwartungen, Rollen und Beziehungsmuster, die oft so selbstverständlich geworden sind, dass wir sie kaum noch bemerken.",
-    ueberP3: "In meiner Arbeit geht es darum, gemeinsam genauer hinzusehen: Was passiert gerade wirklich? Welche Muster wiederholen sich? Welche Möglichkeiten sind bisher nicht sichtbar?",
-    ueberP4: "Aus diesem Verständnis entstehen neue Handlungsräume – auf der Basis eines vertrauensvollen, auf Augenhöhe geführten Kontakts.",
-    arbeitNum: "Arbeitsweise", arbeitH: "Wie ich arbeite",
-    arbeitPull: "„Ich glaube nicht an eine Methode, die für alle funktioniert.“",
-    arbeitP1: "Ich verbinde verschiedene psychologische und systemische Perspektiven und richte die Begleitung nach dem Anliegen, der Person und ihrer individuellen Situation aus.",
-    arbeitP2: "Komplexe Situationen nehme ich ernst, ohne sie unnötig zu pathologisieren.",
-    arbeitP3: "Gemeinsam verstehen wir: Was passiert gerade? Was liegt möglicherweise hinter einem wiederkehrenden Muster? Welche Dynamiken wirken? Welche Erwartungen beeinflussen die Situation?",
-    arbeitP4: "Was könnte sich verändern – und wie? Die Sprache bleibt dabei menschlich und verständlich.",
-    anliegenNum: "Anliegen", anliegenH: "Für wen und mit welchen Anliegen",
-    anliegenIntro: "Meine Begleitung richtet sich an Einzelpersonen, Paare und Familien, die in einer herausfordernden Phase Unterstützung suchen. Mögliche Anliegen sind:",
-    a1: "Lebenskrisen", a2: "Übergänge", a3: "Beziehungen", a4: "wiederkehrende Konfliktmuster", a5: "Überforderung", a6: "Neuorientierung", a7: "persönliche Entwicklung", a8: "familiäre Dynamiken", a9: "Veränderungsprozesse", a10: "Beziehungskonflikte", a11: "Fragen der Lebensgestaltung",
-    anliegenNote: "Diese Themen sind mögliche Anliegen – keine Diagnosen.",
-    angeboteNum: "Angebote", angeboteH: "Mein Angebot",
-    angeboteIntro: "Mein Angebot umfasst Beratung, Coaching und psychosoziale Begleitung für Einzelpersonen, Paare und Familien:",
-    o1: "Psychologische Beratung", o2: "Einzelberatung", o3: "Paarberatung", o4: "Familienberatung", o5: "Psychosoziale Beratung & Begleitung", o6: "Unterstützung in persönlichen Krisen", o7: "Begleitung bei Veränderungsprozessen", o8: "Coaching", o9: "Persönliche Entwicklung",
-    angeboteNote: "Die Formate sind flexibel – online, auf Deutsch und auf Englisch.",
-    hgNum: "Hintergrund", hgH: "Fachlicher Hintergrund",
-    hgIntro: "Meine psychologische Ausbildung und Erfahrung bilden das Fundament meiner Arbeit:",
-    q1: "Diplom-Psychologin", q1d: "Universität Bremen · Schwerpunkte Klinische und Pädagogische Psychologie",
-    q2: "Systemisch-Integrative Sozialtherapeutin", q2d: "Vollzeitausbildung am ISIT Berlin",
-    q3: "Personzentrierte Haltung", q3d: "Ergänzt durch psychodramatische, körperorientierte und kreative Zugänge",
-    q4: "Psychosoziale Praxis & internationale Erfahrung", q4d: "Einzelfall-, Familien- und Eingliederungshilfe · psychosoziale Arbeit mit Jugendlichen und Familien in Mexiko · psychiatrischer Studienaufenthalt in Kuba",
-    kontaktNum: "Kontakt", kontaktH: "Kontakt aufnehmen",
-    kontaktIntro: "Wenn Sie Fragen haben oder herausfinden möchten, ob meine Begleitung zu Ihrem Anliegen passt, können Sie mir über das Kontaktformular schreiben.",
-    kontaktFormate: "Formate", kontaktFormateTxt: "Online · auf Deutsch und auf Englisch",
+    heroQuote: "„Verstehen, was ist. Spüren, was wirkt. Integrieren, was kommt.“",
+    arbeitNum: "So arbeite ich", arbeitH: "Mein Ansatz",
+    arbeitP1: "Ich arbeite ausschließlich online und begleite Einzelpersonen, Paare, Familien und Gruppen.",
+    arbeitP2: "Im Mittelpunkt steht nicht eine starre Methode, sondern Sie als Mensch mit Ihrer individuellen Geschichte. Als Diplom-Psychologin und systemisch-integrative Sozialtherapeutin verbinde ich fundiertes Fachwissen mit einer ganzheitlichen Haltung.",
+    arbeitP3: "Mein Ansatz ist prozessorientiert: Wir betrachten nicht nur das, was gerade schwierig ist, sondern gehen den Dingen auf den Grund. Durch die Dekonstruktion einschränkender Glaubenssätze, automatisierter Denkmuster und veralteter Schutzmechanismen schaffen wir Raum für das, was wirklich zu Ihnen gehört.",
+    arbeitP4: "Dieser Prozess führt über die Bewusstwerdung zur emotionalen Integration. Wir lösen Blockaden, die Sie in der Komfortzone gefangen halten, damit Sie wieder eine authentische Verbindung zu sich selbst und Ihrem Leben spüren – für mehr Lebendigkeit, innere Verbindung, und Flow.",
+    arbeitQuote: "„Verstehen, was ist.<br>Spüren, was wirkt.<br>Integrieren, was kommt.“",
+    gruppenNum: "Gruppen im Fokus", gruppenH: "Gruppenprozesse",
+    gruppenP1: "Ein besonderer Schwerpunkt meiner Arbeit liegt auf der Begleitung von Gruppenprozessen.",
+    gruppenP2: "In Gruppen entsteht ein geschützter Raum, in dem individuelle Themen – etwa Sinnkrisen, Zugehörigkeitsfragen oder Beziehungsdynamiken – im Kontakt mit anderen spiegelbar werden. Viele Muster zeigen sich in der Gruppe in einer verdichteten Form als sicherer Mikrokosmos, was Erkenntnisse ermöglicht, die über das Kognitive hinausgehen: Sie werden erlebbar im geschützten Rahmen, und können dadurch emotional integriert werden.",
+    gruppenP3: "Gruppenarbeit bietet die Chance, sich selbst in Beziehung zu erfahren, neue Perspektiven zu gewinnen und Veränderung nicht nur zu verstehen, sondern im sozialen Miteinander zu festigen.",
+    gruppenP4: "Aktuelle Gruppenangebote und neue Starttermine werden regelmäßig veröffentlicht.",
+    gruppenCta1: "👉 Warteliste beitreten", gruppenCta2: "👉 Über neue Gruppen informiert werden",
+    begleitenNum: "Wie ich Menschen begleite", begleitenH: "Unter die Oberfläche blicken",
+    begleitenP1: "Ich glaube, dass ein Mensch niemals einfach „das Problem“ ist, mit dem er zu mir kommt.",
+    begleitenP2: "Hinter einer akuten Krise stecken oft verletzte Bedürfnisse.<br>Hinter dem Gefühl der Sinnlosigkeit stehen oft Verluste, Erwartungen, oder alte Rollenbilder, die nicht mehr zu Ihnen passen.<br>Und hinter dem Gefühl, festzustecken, steht oft eine Veränderung, die bereits drängt, aber noch keinen Raum gefunden hat.",
+    begleitenP3: "Ich blicke mit Ihnen gemeinsam unter die Oberfläche. Ich möchte verstehen, wie Sie Ihre Welt erleben, welche Dynamiken wirken und wo Ihre Potenziale verborgen liegen. Dabei geht es nicht darum, alles zu analysieren oder aus jedem Zustand ein Defizit zu machen.",
+    begleitenP4: "Es geht um einen offenen Blick auf das, was ist:",
+    begleitenP5: "Welcher Schmerz oder welche Sinnfrage zeigt sich gerade?<br>Was möchte nicht nur auf kognitiver, sondern auch auf körperlicher oder emotionaler Ebene gehört werden?<br>Welche Muster dienen Ihnen nicht mehr?<br>Und was darf sich wandeln, damit Sie sich wieder handlungsfähig und verbunden fühlen?",
+    begleitenP6: "Ihre Begleitung erfolgt klar, auf Augenhöhe und mit tiefem Respekt vor Ihrem individuellen Tempo.",
+    awNum: "Arbeitsweise", awH: "Ein integrativer Prozess – so vielseitig wie Sie",
+    awPull: "„Ich glaube nicht an die eine Methode, die für alle funktioniert.“",
+    awP1: "Menschen und Anliegen sind vielschichtig. Deshalb stütze ich mich auf einen integrativen Ansatz, der verschiedene psychologische und systemische Perspektiven vereint und flexibel auf Ihre Bedürfnisse angepasst wird.",
+    awP2: "Je nach Situation binden wir unterschiedliche Ebenen ein:<br>die persönliche Lebensgeschichte und aktuelle Krisensituation,<br>das Aufbrechen von Glaubenssätzen und alten Mustern (Dekonstruktion),<br>körperorientierte und kreative Ansätze zum Erleben oder auch zur Regulation,<br>Beziehungen und soziale Zugehörigkeit,<br>die emotionale Verarbeitung und Rückverbindung mit Ihren Werten.",
+    awP3: "Komplexität darf da sein. Nicht jede Krise muss sofort „gelöst“ werden – oft beginnt die tiefste Entwicklung damit, dem, was ist, einen sicheren Raum zu geben, um zu verstehen, zu dekonstruieren, was uns im Leid gefangen hält, dann in Verbindung zu kommen und durch emotionale Integration einen neuen Flow zu finden.",
+    awP4: "Meine Aufgabe ist es, diesen Raum, gemeinsam mit Ihnen, für Sie zu schaffen – für Klarheit, Integration und ein selbstbestimmtes Leben.",
+    angeboteNum: "Meine Angebote", angeboteH: "Online-Begleitung",
+    angeboteIntro: "Ich biete Online-Begleitung auf Deutsch und Englisch an. Dabei arbeite ich sowohl im Einzelsetting als auch mit Paaren, Familien und Gruppen.",
+    o1: "Einzelberatung", o1d: "Für Menschen, die sich in akuten Krisen oder belastenden Lebensphasen befinden, Orientierung suchen und neue Perspektiven entwickeln möchten. Ein geschützter, sicherer Raum für persönliche Krisen, emotionale Klärungsprozesse und Fragen der eigenen Lebensgestaltung.",
+    o2: "Paarberatung", o2d: "Für Paare, die destruktive Beziehungs- und Konfliktmuster durchbrechen, einander wieder emotional erreichen und neue Wege des Miteinanders finden möchten.",
+    o3: "Familienberatung", o3d: "Für Familien, die verstrickte Dynamiken verstehen und gemeinsam neue, entlastende Formen des Umgangs entwickeln möchten.",
+    o4: "Gruppen", o4d: "Manche Prozesse entfalten sich besonders kraftvoll in der Gemeinschaft. In meinen Gruppen erleben Sie den heilsamen Austausch, spüren Verbundenheit und integrieren neue Erkenntnisse im sozialen Raum.",
+    o5: "Coaching", o5d: "Begleitung bei persönlichen Entwicklungsfragen, Veränderungsprozessen, Entscheidungskrisen und der bewussten, wertebasierten Lebensgestaltung.",
+    angeboteNote: "Alle Angebote finden ausschließlich online statt.",
+    hgNum: "Hintergrund", hgH: "Systemisch-Integratives Fundament · Psychologische Expertise · ganzheitliche Haltung",
+    hgP1: "Mein fachlicher Hintergrund verbindet mein Studium der Psychologie (Diplom) mit einer fundierten Weiterbildung zur systemisch-integrativen Sozialtherapeutin sowie langjähriger Praxiserfahrung in der psychosozialen Begleitung.",
+    hgP2: "In meiner Arbeit fließen verschiedene Fachdisziplinen und Methoden zusammen: Ich bin geschult in systemischen Methoden, Psychodrama, körperorientierten und kreativen Methoden sowie einer personzentrierten Haltung. Zur Zeit befinde mich in Fortbildungen zu NLP und Hypnotherapie.",
+    hgP3: "Fachlichkeit bedeutet für mich, Sie in Ihrem gesamten Lebenskontext zu verstehen und Ihnen einen professionellen, sicheren Rahmen zu bieten. Eine integrative Haltung bedeutet, den Menschen in seiner Ganzheit aus Körper, Geist und sozialen Beziehungen zu betrachten.",
+    hgP4: "Fachlichkeit, Empathie und eine verantwortungsvolle, zugewandte Haltung bilden das Fundament meiner Arbeit.",
+    kontaktNum: "Kontakt", kontaktH: "Ein erster Schritt darf leicht sein",
+    kontaktIntro: "Ein erster Schritt in der Krise oder bei Sinnfragen darf leicht und unkompliziert sein.",
+    kontaktIntro2: "Sie müssen Ihr Anliegen nicht perfekt formulieren. Wenn Sie spüren, dass Sie Unterstützung brauchen, um etwas zu sortieren, Ihren Weg neu zu finden oder Schmerz zu verarbeiten, schreiben Sie mir einfach eine Nachricht über das Kontaktformular.",
+    kontaktFormate: "Online",
+    kontaktFormateTxt: "Die Begleitung findet ausschließlich online statt und kann auf Deutsch oder Englisch erfolgen.",
+    hinweisH: "Hinweis zum Leistungsumfang",
+    hinweisT: "Meine Angebote im Bereich psychologische Beratung, Coaching und psychosoziale Begleitung dienen der persönlichen Klärung, Krisenbewältigung, Entwicklung und Unterstützung in herausfordernden Lebenssituationen. Sie stellen keine heilkundliche Behandlung psychischer Erkrankungen dar und ersetzen keine Psychotherapie. Bei Beschwerden mit Krankheitswert ist eine entsprechende medizinische oder psychotherapeutische Abklärung und Behandlung erforderlich.",
     fName: "Name", fNamePh: "Ihr Name", fEmail: "E-Mail-Adresse", fEmailPh: "ihre@email.de", fMsg: "Ihre Nachricht", fMsgPh: "Wie kann ich Sie unterstützen?",
     fDsgvo: "Ich habe die Datenschutzerklärung zur Kenntnis genommen.", fSend: "Nachricht senden",
     fNote: "Ihre Angaben werden vertraulich behandelt und ausschließlich zur Bearbeitung Ihrer Anfrage verwendet.",
     fSuccess: "Vielen Dank für Ihre Nachricht. Ich melde mich in der Regel innerhalb weniger Tage bei Ihnen.",
     fError: "Es gab ein Problem beim Senden. Bitte versuchen Sie es erneut.",
     fFallback: "Danke für Ihr Interesse. Das Kontaktformular wird in den nächsten Tagen aktiviert – bitte kommen Sie dann gern erneut darauf zurück.",
-    brandSubF: "Diplom-Psychologin · Systemisch-Integrative Sozialtherapeutin",
-    footKontakt: "Kontakt", footKontaktWeg: "Kontaktaufnahme über das Formular", footNav: "Seite",
-    impressum: "Impressum", datenschutz: "Datenschutzerklärung"
+    footBrandSub: "Diplom-Psychologin · Systemisch-Integrative Sozialtherapeutin",
+    footKontakt: "Kontakt", footKontaktWeg: "Kontaktaufnahme über das Formular",
+    footLinks: "Rechtliches", impressum: "Impressum", datenschutz: "Datenschutzerklärung",
+    deconLink: "Explore the Deconstruction Approach →"
   },
   en: {
-    siteTitle: "Ina Gordon – Psychologist & Systemic-Integrative Social Therapist",
+    siteTitle: "Ina Gordon – Psychologist · Systemic-Integrative Social Therapist",
     brandSub: "Psychologist · Systemic-Integrative Social Therapist",
-    navUeber: "About", navArbeit: "How I work", navAnliegen: "Concerns", navAngebote: "Offerings", navKontakt: "Contact",
+    navArbeit: "How I work", navGruppen: "Groups", navAngebote: "Offerings", navKontakt: "Contact",
     heroEyebrow: "Psychological counselling · Coaching · Psychosocial support",
-    heroH1: "Space for Clarity – <em>personal</em>, psychologically grounded, on equal terms.",
-    heroLead: "I am a psychologist and systemic-integrative social therapist. I support individuals, couples, and families in understanding themselves and their situation more deeply – through crises, transitions, and questions of how to shape one's own life.",
+    heroH1: "Space for clarity and emotional integration – for existential questions, crises, and change.",
+    heroLead: "Sometimes we reach points in life where our previous image of ourselves and of the world no longer holds: acute crises, deep exhaustion, or pressing existential questions – 'Who am I, and what is my place in this world?' – weigh on body and soul alike. When the feeling of what one lives for is lost, or old life designs break apart in crisis, mere reflection is often not enough.",
+    heroLead2: "Change requires more than insight – it needs a safe space in which pain can be held, processed physically, and integrated emotionally.",
+    heroQuestions: "What is holding you back?<br>Which pattern is blocking your aliveness?<br>And what becomes possible when you begin to let go of old beliefs and find a genuine connection to yourself and the world again?",
+    heroLead3: "I accompany you with empathy and professional expertise through this process – for deep clarity and a return to your own aliveness.",
     ctaPrimary: "Get in touch", ctaSecondary: "How I work",
     heroNote: "Counselling · Coaching · Psychosocial support – online",
-    m1: "Clarity", m2: "Connection", m3: "Development",
-    heroQuote: "“Understand what is. Clarify what works. Shape what comes.”",
-    ueberNum: "About", ueberH: "Who I am and how I work with people",
-    ueberP1: "I am a psychologist and systemic-integrative social therapist with many years of experience in psychosocial counselling and support for individuals, couples, and families.",
-    ueberP2: "I am interested not only in the visible surface of a problem, but also in what lies beneath: beliefs, expectations, roles, and relationship patterns that have often become so self-evident that we barely notice them anymore.",
-    ueberP3: "My work is about looking more closely together: What is really happening right now? Which patterns repeat? Which possibilities are not yet visible?",
-    ueberP4: "From this understanding, new room for action emerges – grounded in a relationship of trust and mutual respect.",
-    arbeitNum: "How I work", arbeitH: "How I work",
-    arbeitPull: "“I don't believe in a single method that works for everyone.”",
-    arbeitP1: "I bring together different psychological and systemic perspectives and adapt the work to the concern, the person, and their individual situation.",
-    arbeitP2: "I take complex situations seriously without unnecessarily pathologizing them.",
-    arbeitP3: "Together we explore: What is happening? What might lie behind a recurring pattern? Which dynamics are at work, which expectations shape the situation?",
-    arbeitP4: "What could change – and how? The language stays human and accessible.",
-    anliegenNum: "Concerns", anliegenH: "For whom and with which concerns",
-    anliegenIntro: "My support is for individuals, couples, and families looking for guidance in a challenging phase. Possible concerns include:",
-    a1: "life crises", a2: "transitions", a3: "relationships", a4: "recurring conflict patterns", a5: "overwhelm", a6: "reorientation", a7: "personal development", a8: "family dynamics", a9: "change processes", a10: "relationship conflicts", a11: "questions about shaping your own life",
-    anliegenNote: "These are possible concerns – not diagnoses.",
-    angeboteNum: "Offerings", angeboteH: "My offering",
-    angeboteIntro: "My offering comprises counselling, coaching, and psychosocial support for individuals, couples, and families:",
-    o1: "Psychological counselling", o2: "Individual counselling", o3: "Couples counselling", o4: "Family counselling", o5: "Psychosocial counselling & support", o6: "Support in personal crises", o7: "Support through change processes", o8: "Coaching", o9: "Personal development",
-    angeboteNote: "Formats are flexible – online, in German and in English.",
-    hgNum: "Background", hgH: "Professional background",
-    hgIntro: "My psychological training and experience form the foundation of my work:",
-    q1: "Psychologist (Diploma)", q1d: "University of Bremen · focus on clinical and educational psychology",
-    q2: "Systemic-Integrative Social Therapist", q2d: "Full-time training at ISIT Berlin",
-    q3: "Person-centred stance", q3d: "Complemented by psychodramatic, body-oriented, and creative approaches",
-    q4: "Psychosocial practice & international experience", q4d: "Individual, family, and integration support · psychosocial work with young people and families in Mexico · psychiatric study placement in Cuba",
-    kontaktNum: "Contact", kontaktH: "Get in touch",
-    kontaktIntro: "If you have questions or would like to find out whether my support suits your concern, you can write to me via the contact form.",
-    kontaktFormate: "Formats", kontaktFormateTxt: "Online · in German and in English",
+    heroQuote: "“Understand what is. Feel what works. Integrate what comes.”",
+    arbeitNum: "How I work", arbeitH: "My approach",
+    arbeitP1: "I work exclusively online and support individuals, couples, families, and groups.",
+    arbeitP2: "At the centre is not a rigid method, but you as a person with your individual story. As a psychologist and systemic-integrative social therapist, I combine sound professional knowledge with a holistic stance.",
+    arbeitP3: "My approach is process-oriented: we look not only at what is difficult right now, but go to the root of things. Through the deconstruction of limiting beliefs, automated thought patterns, and outdated defence mechanisms, we create space for what truly belongs to you.",
+    arbeitP4: "This process leads from awareness to emotional integration. We release blockages that keep you trapped in your comfort zone, so that you can feel an authentic connection to yourself and your life again – for more aliveness, inner connection, and flow.",
+    arbeitQuote: "“Understand what is.<br>Feel what works.<br>Integrate what comes.”",
+    gruppenNum: "Groups in focus", gruppenH: "Group processes",
+    gruppenP1: "A particular focus of my work lies in accompanying group processes.",
+    gruppenP2: "In groups, a protected space arises in which individual themes – such as existential crises, questions of belonging, or relationship dynamics – become mirrored in contact with others. Many patterns show themselves in the group in a condensed form as a safe microcosm, enabling insights that go beyond the cognitive: they become experienceable in a protected setting and can thus be integrated emotionally.",
+    gruppenP3: "Group work offers the chance to experience oneself in relationship, gain new perspectives, and consolidate change not only intellectually but in social togetherness.",
+    gruppenP4: "Current group offerings and new start dates are published regularly.",
+    gruppenCta1: "👉 Join the waiting list", gruppenCta2: "👉 Be informed about new groups",
+    begleitenNum: "How I accompany people", begleitenH: "Looking beneath the surface",
+    begleitenP1: "I believe that a person is never simply 'the problem' they come to me with.",
+    begleitenP2: "Behind an acute crisis there are often wounded needs.<br>Behind the feeling of meaninglessness there are often losses, expectations, or old role models that no longer fit you.<br>And behind the feeling of being stuck there is often a change that is already pressing but has not yet found space.",
+    begleitenP3: "I look beneath the surface together with you. I want to understand how you experience your world, which dynamics are at work, and where your potentials lie hidden. The point is not to analyse everything or to turn every state into a deficit.",
+    begleitenP4: "It is about an open view of what is:",
+    begleitenP5: "Which pain or existential question is showing itself right now?<br>What wants to be heard not only cognitively but on a bodily or emotional level?<br>Which patterns no longer serve you?<br>And what may change so that you feel capable and connected again?",
+    begleitenP6: "Your support takes place clearly, on equal terms, and with deep respect for your individual pace.",
+    awNum: "Working approach", awH: "An integrative process – as multifaceted as you",
+    awPull: "“I don't believe in the one method that works for everyone.”",
+    awP1: "People and concerns are multifaceted. That is why I rely on an integrative approach that unites different psychological and systemic perspectives and is flexibly adapted to your needs.",
+    awP2: "Depending on the situation, we bring in different levels:<br>your personal life story and current crisis situation,<br>the breaking open of beliefs and old patterns (deconstruction),<br>body-oriented and creative approaches for experiencing or regulating,<br>relationships and social belonging,<br>emotional processing and reconnecting with your values.",
+    awP3: "Complexity is allowed to be there. Not every crisis has to be 'solved' immediately – often the deepest development begins with giving what is a safe space, in order to understand, to deconstruct what keeps us trapped in suffering, then to come into connection and, through emotional integration, to find a new flow.",
+    awP4: "My task is to create this space, together with you, for you – for clarity, integration, and a self-determined life.",
+    angeboteNum: "My offerings", angeboteH: "Online support",
+    angeboteIntro: "I offer online support in German and English. I work both in one-to-one settings and with couples, families, and groups.",
+    o1: "Individual counselling", o1d: "For people who find themselves in acute crises or difficult phases of life, seek orientation, and want to develop new perspectives. A protected, safe space for personal crises, emotional clarification processes, and questions of how to shape one's own life.",
+    o2: "Couples counselling", o2d: "For couples who want to break destructive relationship and conflict patterns, reach each other emotionally again, and find new ways of being together.",
+    o3: "Family counselling", o3d: "For families who want to understand tangled dynamics and develop new, relieving ways of relating together.",
+    o4: "Groups", o4d: "Some processes unfold especially powerfully in community. In my groups you experience healing exchange, feel connection, and integrate new insights in a social space.",
+    o5: "Coaching", o5d: "Support for personal development questions, change processes, decision crises, and conscious, value-based life design.",
+    angeboteNote: "All offerings take place exclusively online.",
+    hgNum: "Background", hgH: "Systemic-integrative foundation · psychological expertise · holistic stance",
+    hgP1: "My professional background combines my psychology degree (Diplom) with in-depth training as a systemic-integrative social therapist and many years of practical experience in psychosocial support.",
+    hgP2: "In my work, different disciplines and methods come together: I am trained in systemic methods, psychodrama, body-oriented and creative methods, and a person-centred stance. I am currently undertaking further training in NLP and hypnotherapy.",
+    hgP3: "For me, professionalism means understanding you within your entire life context and offering you a professional, safe framework. An integrative stance means viewing the person in their wholeness of body, mind, and social relationships.",
+    hgP4: "Professionalism, empathy, and a responsible, attentive stance form the foundation of my work.",
+    kontaktNum: "Contact", kontaktH: "A first step can be easy",
+    kontaktIntro: "A first step in a crisis or with existential questions can be easy and uncomplicated.",
+    kontaktIntro2: "You do not have to formulate your concern perfectly. If you feel you need support to sort something out, find your way anew, or process pain, simply send me a message via the contact form.",
+    kontaktFormate: "Online",
+    kontaktFormateTxt: "The support takes place exclusively online and can be held in German or English.",
+    hinweisH: "Note on the scope of services",
+    hinweisT: "My offerings in the area of psychological counselling, coaching, and psychosocial support serve personal clarification, crisis management, development, and support in challenging life situations. They do not constitute healing treatment of mental illness and do not replace psychotherapy. In the case of complaints with the value of illness, appropriate medical or psychotherapeutic clarification and treatment is required.",
     fName: "Name", fNamePh: "Your name", fEmail: "Email address", fEmailPh: "you@email.com", fMsg: "Your message", fMsgPh: "How can I support you?",
     fDsgvo: "I have read the privacy policy.", fSend: "Send message",
     fNote: "Your details are treated confidentially and used only to respond to your enquiry.",
     fSuccess: "Thank you for your message. I usually reply within a few days.",
     fError: "There was a problem sending your message. Please try again.",
-    fFallback: "Thank you for your interest. The contact form will be activated shortly – please check back in a few days.",
-    brandSubF: "Psychologist · Systemic-Integrative Social Therapist",
-    footKontakt: "Contact", footKontaktWeg: "Get in touch via the form", footNav: "Page",
-    impressum: "Legal Notice", datenschutz: "Privacy Policy"
+    fFallback: "Thank you for your interest. The contact form will be activated in the coming days – please check back then.",
+    footBrandSub: "Psychologist · Systemic-Integrative Social Therapist",
+    footKontakt: "Contact", footKontaktWeg: "Contact via the form",
+    footLinks: "Legal", impressum: "Legal Notice", datenschutz: "Privacy Policy",
+    deconLink: "Explore the Deconstruction Approach →"
   }
 };
-</script>
-<script src="js/site.js"></script>
-<script>
+
 /* Show the Deconstruction note on the English version only, very subtly at the very end. */
 (function () {
   var decon = document.querySelector("[data-decon]");
   if (!decon) return;
   function sync() {
-    var lang = "de";
-    try { lang = localStorage.getItem("inag-lang") || "de"; } catch (e) {}
-    decon.hidden = lang !== "en";
+    var l = "de";
+    try { var v = localStorage.getItem("inag-lang"); if (v === "en") l = "en"; } catch (e) {}
+    decon.hidden = (l !== "en");
   }
   sync();
-  document.addEventListener("DOMContentLoaded", function () {
-    setInterval(sync, 300);
-    sync();
-  });
+  window.addEventListener("storage", sync);
+  setInterval(sync, 500);
 })();
 </script>
+<script src="js/site.js"></script>
 </body>
 </html>
