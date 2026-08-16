@@ -47,7 +47,7 @@ nav.main a:hover{color:var(--rose);text-decoration:none}
 .motif span{font-family:var(--serif);font-style:italic;font-size:1.05rem;color:var(--ink-soft)}
 .motif .dot{width:6px;height:6px;border-radius:50%;background:var(--gold);display:inline-block}
 .hero-media{position:relative;justify-self:center;width:100%;max-width:360px}
-.hero-media img{width:100%;height:auto;border-radius:20px;position:relative;z-index:2;display:block}
+.hero-media img{width:100%;height:auto;border-radius:50%;object-fit:cover;position:relative;z-index:2;display:block;aspect-ratio:3/4}
 .halo{position:absolute;top:-24px;left:-24px;right:-24px;bottom:-24px;border:2px solid var(--gold);border-radius:999px;opacity:.55;z-index:1}
 .quote{margin-top:22px;text-align:center;font-family:var(--serif);font-style:italic;color:var(--ink-soft);font-size:1.02rem}
 
